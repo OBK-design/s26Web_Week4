@@ -22,7 +22,37 @@
       </ul>
     </nav>
 
-    <main></main>
+    <main>
+      <!-- HTML forms let users enter information into your site-->
+      <form>
+        <section>
+          <!-- To link the lable with input,
+             use "for" on the label matching the "id" on the input-->
+          <label for="name">Name:</label>
+          <input id="name" type="text" />
+          <!-- With input, you can specify diffrent types of input -->
+          <label for="email">Email :</label>
+          <input id="email" type="email" />
+        </section>
+        <section>
+          <!-- The section are block elemts, so these form elements will appear on the next line-->
+          <label for="pass">Password:</label>
+          <input id="pass" type="password" />
+
+          <label for="when">When?</label>
+          <input id="when" type="date" />
+
+          <label for="how">How Many</label>
+          <input id="how" type="Number" min="10" max="50" />
+        </section>
+        <section>
+          <!-- To submit a form, add a submit button
+             this button will submit everything contained inside of one form tag-->
+          <!-- The Value attribute displays text on the button-->
+          <input type="submit" value="Submit The Form" />
+        </section>
+      </form>
+    </main>
 
     <footer></footer>
   </body>
