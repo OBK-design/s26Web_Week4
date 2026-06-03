@@ -1,5 +1,9 @@
 /* this is a CSS comment */
 
 body {
-  background-color: blueviolet;
+  background-color: rgb(137, 226, 99);
+}
+/* this will style all the images on your page */
+img {
+  height: 350px;
 }
